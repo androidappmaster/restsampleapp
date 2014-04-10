@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/student_photo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/student_photo"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:text="Nombre de estudiante"
+        android:singleLine="true"
+        style="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/student_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/student_photo"
+        android:layout_below="@id/student_name"
+        android:layout_margin="15dp"
+        android:text="Ciudad de origen"
+        style="?android:textAppearanceMedium"/>
+
+</RelativeLayout>

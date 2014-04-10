@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.appmaster.restapp.MainActivity" >
+    
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_add"
+        android:title="@string/action_add"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+
+</menu>
